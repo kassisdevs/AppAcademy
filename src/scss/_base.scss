@@ -1,0 +1,35 @@
+// COLOR VARIABLES
+$color-primary: #2C3E50;
+$color-secondary: #ec145b;
+
+$color-grey-light: #999;
+$color-blue: #337ab7;
+$bg-grey: #f8f8f8;
+// FONT VARIABLES
+$font-primary: 'Raleway', sans-serif;
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px = 1rem
+
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-primary;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.overlay-section {
+  min-height: 80rem;
+  background: rgba(0, 0, 0, 0.4);
+}
