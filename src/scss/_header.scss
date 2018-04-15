@@ -1,0 +1,51 @@
+#header {
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 70rem;
+  &-phone {
+    margin-top: 10rem;
+    width: 50rem;
+    height: auto;
+  }
+  &-content {
+    margin-top: 20rem;
+  }
+  &-download{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  &-download:hover{
+    background: #fff;
+    color: $color-blue;
+    #header-span{
+      color: $color-blue;
+    }
+    #header-fa{
+      color: $color-blue;
+    }
+
+  }
+  &-span{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    font-weight: 700;
+    transition: 0.5s;
+  }
+  
+  &-fa{
+    text-align: left;
+    margin-bottom: 7rem;
+    font-size: 3.5rem;
+    transition: 0.5s;
+  }
+  
+}

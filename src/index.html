@@ -13,33 +13,61 @@
 </head>
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-sm navbar-dark py-4 fixed-top">
+<nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark py-4 fixed-top">
 <div class="container">
 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
   <span class="navbar-toggler-icon"></span>
 </button>
-<a href="index.html" class="navbar-brand">Kassis<span>Devs</span></a>
+<a href="index.html" class="navbar-brand">
+  <img id="nav-img" src="img/logo.png" alt="logo">
+</a>
 <div class="collapse navbar-collapse" id="navbarCollapse">
 <ul class="navbar-nav ml-auto">
        <li class="nav-item mx-3">
-    <a href="#header" class="nav-link text-white">Home</a>
+    <a href="#header" class="nav-link text-white" id="nav-a">HOME</a>
       </li>
       <li class="nav-item mx-3">
-    <a href="#about" class="nav-link text-white">About</a>
+    <a href="#features" class="nav-link text-white" id="nav-a">FEATURES</a>
       </li>
       <li class="nav-item mx-3">
-    <a href="#portfolio" class="nav-link text-white">Portfolio</a>
+    <a href="#screenshots" class="nav-link text-white" id="nav-a">SCREENSHOTS</a>
       </li>
       <li class="nav-item mx-3">
-    <a href="#testimonials" class="nav-link text-white">Testimonials</a>
+    <a href="#pricing" class="nav-link text-white" id="nav-a">PRICING</a>
       </li>
       <li class="nav-item mx-3">
-    <a href="#contact" class="nav-link text-white">Contact</a>
+    <a href="#download" class="nav-link text-white" id="nav-a">DOWNLOAD</a>
       </li>
+      <li class="nav-item mx-3">
+        <a href="#contact" class="nav-link text-white" id="nav-a">CONTACT</a>
+          </li>
 </ul>
 </div>
 </div>
 </nav>
+<!-- HEADER -->
+<header id="header">
+<div class="overlay-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+      <div id="header-content">
+        <h1 class="heading-1 m-4">Create your own app landing page with Apps</h1>
+        <p class="paragraph m-4">A better way to represent your app using full feature apps template.Now available on app store and play store.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div id="header-btns d-flex flex-row m-4">
+          <div id="header-download" class="btn btn-primary m-2"> <i class="fa fa-apple m-1" id="header-fa"></i> Download App from <br><span id="header-span">App Store</span> </div>
+          <div id="header-download" class="btn btn-primary m-2"> <i class="fa fa-android m-1" id="header-fa"></i> Download App from <br><span id="header-span">Play Store</span> </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-6">
+        <img id="header-phone" src="img/header.png" alt="header phone">
+        </div>
+    </div>
+  </div>
+
+</div>
+</header>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/popper.min.js"></script>

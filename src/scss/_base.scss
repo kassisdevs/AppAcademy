@@ -1,10 +1,11 @@
 // COLOR VARIABLES
-$color-primary: #2C3E50;
-$color-secondary: #ec145b;
+$color-primary: #222;
+$color-secondary: #333;
 
-$color-grey-light: #999;
-$color-blue: #337ab7;
-$bg-grey: #f8f8f8;
+$color-grey-light: #f7f7f7;
+$color-grey-dark: #666;
+$color-blue:#0299f1;
+$bg-grey: #f7f7f7;
 // FONT VARIABLES
 $font-primary: 'Raleway', sans-serif;
 
@@ -31,5 +32,5 @@ body {
 }
 .overlay-section {
   min-height: 80rem;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
 }
