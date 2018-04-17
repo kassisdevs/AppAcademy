@@ -25,6 +25,20 @@ body {
   font-weight: 400;
   line-height: 5.5rem; }
 
+.heading-2 {
+  color: #333;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.heading-3 {
+  color: #333;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
 .heading-5 {
   color: #333;
   font-size: 1.8rem;
@@ -95,4 +109,48 @@ body {
   padding: 10rem 10rem; }
   #services-des {
     background-color: #fff;
-    padding: 3rem; }
+    padding: 3rem;
+    margin: 1rem 0; }
+
+#presentaton {
+  margin: 10rem; }
+  #presentaton-content {
+    margin: 10rem; }
+  #presentaton-btn {
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    border: 1px solid #0299f1;
+    border-radius: 0.5rem;
+    transition: 0.5s; }
+  #presentaton-btn:hover {
+    background-color: #222;
+    color: #0299f1;
+    border: 1px solid #222; }
+
+#features {
+  background-color: #f7f7f7;
+  padding: 5rem 0; }
+  #features-content {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem 0; }
+  #features-img {
+    width: 5rem;
+    height: auto; }
+  #features-p {
+    color: #666;
+    font-size: 2.2rem;
+    font-weight: 400; }
+
+#screenshots {
+  padding: 5rem 0; }
+  #screenshots-img {
+    width: 22rem;
+    height: auto; }
+
+#video {
+  background-image: url(../img/videoplayer-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 70rem; }

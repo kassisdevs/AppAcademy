@@ -1,0 +1,18 @@
+#presentaton {
+margin: 10rem;
+  &-content {
+    margin: 10rem;
+  }
+  &-btn {
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    border: 1px solid $color-blue;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+  }
+  &-btn:hover {
+    background-color: $color-primary;
+    color: $color-blue;
+    border: 1px solid $color-primary;
+  }
+}
