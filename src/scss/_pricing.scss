@@ -1,0 +1,61 @@
+#pricing {
+  padding: 5rem 0;
+  background-color: $bg-grey;
+  &-header {
+    background-color: #fff;
+    margin-bottom: 1px;
+    padding: 3rem 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  &-type {
+    color: $color-blue;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  &-price {
+    color: $color-blue;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  }
+ &-header-body {
+   background-color: #fff;
+   margin-bottom: 1px;
+   padding: 2rem 0;
+   margin-bottom: 1px;
+   &-des {
+     font-size: 1.5rem;
+     color: $color-grey-dark;
+     line-height: 1.7;
+     text-align: center;
+     margin: 1rem 0;
+   }
+ }
+ &-footer {
+   text-align: center;
+   background-color: #fff;
+   margin-bottom: 1px;
+   padding: 3rem 0;
+   &-btn {
+     color: $color-blue;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-size: 1.3rem;
+     border: 2px solid $color-blue;
+     padding: 1rem 3rem;
+     border-radius: 3px;
+     transition: all 1s;
+   }
+   &-btn:hover {
+     background-color: $color-blue;
+     color: #fff;
+   }
+ }
+}

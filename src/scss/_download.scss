@@ -1,0 +1,55 @@
+#download {
+  background-image: url(../img/download-bg.jpg);
+  background-attachment: fixed;
+  // background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 20rem;
+  &-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 40rem;
+  }
+  &-content {
+    margin: 5rem 10rem;
+  }
+  &-btns {
+    margin-top: 5rem;
+    position: relative;
+  &-apple {
+    padding: 2.1rem 3.2rem;
+    border: 2px solid $color-blue;
+    margin-right: 2rem;
+    border-radius: 5px;
+   text-align: left;
+   transition: all 1s;
+  }
+  &-apple:hover {
+    background-color: #fff;
+  }
+  &-android {
+    padding: 2.1rem 3.2rem;
+    border: 2px solid $color-blue;
+    margin-left: 2rem;
+    border-radius: 5px;
+   text-align: right;
+   transition: all 1s;
+  }
+  &-android:hover {
+    background-color: #fff;
+  }
+
+}
+&-des {
+  margin-left: 1rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: $color-blue;
+
+}
+&-icon {
+  margin-right: 1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: $color-blue;
+
+}
+}

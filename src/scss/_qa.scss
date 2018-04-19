@@ -1,0 +1,12 @@
+#qa {
+  padding: 5rem 0;
+  &-title {
+   font-size: 1.8rem;
+   text-decoration: none;
+   color: $color-blue;
+  }
+  &-text {
+    font-size: 1.4rem;
+    color: $color-grey-dark;
+  }
+}

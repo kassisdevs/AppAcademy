@@ -1,0 +1,12 @@
+#customers {
+  padding: 5REM 0;
+  &-review {
+    background-color: $bg-grey;
+    margin: 2rem 0;
+  }
+  &-img {
+    width: 8rem;
+    height: auto;
+    border-radius: 50%;
+  }
+}

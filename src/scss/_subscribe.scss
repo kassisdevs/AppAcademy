@@ -1,0 +1,47 @@
+#subscribe {
+  padding: 10rem 0;
+  background-color: $bg-grey;
+  &-content {
+    margin: 0 30rem;
+  }
+  &-btn {
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem 6rem;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: $color-blue;
+    border-radius: 3px;
+    border: 1px solid $color-blue;
+    transition: all 1s;
+  }
+  &-btn:hover {
+    background-color: #fff;
+    color: $color-blue;
+  }
+  &-form {
+    display: block;
+    margin: 2rem 0;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: $color-blue;
+    padding: 1rem 6rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  &-icon {
+    display: inline-block;
+    margin: 3rem 1rem;
+    font-size: 3rem;
+    color: $color-blue;
+    transition: all 1s;
+  }
+  &-icon:hover {
+    color: $color-primary;
+  }
+}
