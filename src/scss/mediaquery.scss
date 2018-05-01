@@ -1,0 +1,83 @@
+@media (max-width:1024px) {
+  #nav-a {
+    font-size: 1.2rem;
+  }
+  #nav-img {
+    width: 10rem;
+  }
+  .heading-1 {
+    font-size: 3rem;
+  }
+  .heading-3 {
+    font-size: 2.4rem;
+  }
+  .paragraph {
+    font-size: 1.2rem;
+  }
+  .paragraph-des {
+    font-size: 1.4rem;
+  }
+  #header-download {
+    padding: 0.3rem 0.6rem;
+  }
+  .nav-link {
+    padding: 0.3rem 0.6rem;
+  }
+  #presentaton-btn {
+    padding: 1.5rem 2rem;
+  }
+  #download-btns-android {
+    padding: 1.5rem 2.2rem;
+  }
+  #download-btns-apple {
+    padding: 1.5rem 2.2rem;
+  }
+}
+
+@media (max-width:992px) {
+  #download-btns-android {
+
+  }
+  #download-des {
+    font-size: 1.2rem;
+  }
+  .heading-3 {
+    font-size: 1.8rem;
+  }
+  #subscribe-form {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+  #subscribe-btn {
+    padding: 0.4rem 1.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:768px) {
+  #header {
+    min-height: 40rem;
+  }
+  #header-content {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+  }
+  #header-phone {
+    display: none;
+  }
+  #download-btns-android {
+    padding: 0.5rem 0.8rem;
+  }
+  #download-btns-apple {
+    padding: 0.5rem 0.8rem;
+  }
+  #subscribe-content {
+    display: none;
+  }
+}
+
+@media (max-width:576px) {
+  #header-btns {
+    margin-left: 2rem;
+  }
+}
